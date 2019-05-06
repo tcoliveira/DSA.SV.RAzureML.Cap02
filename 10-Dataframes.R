@@ -37,3 +37,13 @@ pesq$pais
 pesq[1,1]
 
 head(pesq)
+
+View(mtcars)
+
+pesq[altura<1.60,]
+pacientes<-data.frame(read.csv(file='pacientes.csv', header = TRUE, sep = ","))
+
+#visualizando o dataset
+View(pacientes)
+head(pacientes)
+summary(pacientes)
